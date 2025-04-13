@@ -1,0 +1,13 @@
+environment:
+  test:
+    base_url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    timeout: 10
+  dev:
+    base_url: "put dev url here"
+    timeout: 10
+  prod:
+    base_url: "put prod url here"
+    timeout: 10
+
+browser: chrome
+log_level: INFO
