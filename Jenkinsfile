@@ -1,3 +1,4 @@
+// Point the jenkins machine to the repository and use this Jenkins file 
 pipeline {
     agent any
     environment {
