@@ -150,3 +150,155 @@
 2025-04-13 15:36:27,314 - INFO - Initialized Chrome WebDriver
 2025-04-13 15:36:29,559 - INFO - Closed WebDriver
 2025-04-13 15:36:29,559 - INFO - Cleaned up test environment
+2025-04-13 16:21:59,598 - INFO - Initialized test environment
+2025-04-13 16:22:02,226 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:02,229 - INFO - Starting scenario: Successful login with valid credentials
+2025-04-13 16:22:03,708 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:03,708 - INFO - Opened login page successfully
+2025-04-13 16:22:04,244 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:04,334 - INFO - Typed 'Admin' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:04,334 - INFO - Entered valid username: Admin
+2025-04-13 16:22:04,346 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:04,419 - INFO - Typed 'admin123' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:04,419 - INFO - Entered valid password
+2025-04-13 16:22:04,431 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:04,482 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:04,482 - INFO - Clicked login button
+2025-04-13 16:22:07,530 - INFO - Retrieved url title: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-04-13 16:22:07,566 - INFO - Found element with locator: ('xpath', "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+2025-04-13 16:22:07,579 - INFO - Found'Dashboard' as a text in element with locator: ('xpath', "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+2025-04-13 16:22:07,580 - INFO - Verified user login to dasboard page
+2025-04-13 16:22:07,580 - INFO - Finished scenario: Successful login with valid credentials
+2025-04-13 16:22:11,752 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:11,754 - INFO - Starting scenario: Failed login with invalid credentials
+2025-04-13 16:22:13,191 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:13,192 - INFO - Opened login page successfully
+2025-04-13 16:22:13,717 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:13,807 - INFO - Typed 'invalidusername' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:13,807 - INFO - Entered invalid username: invalidusername
+2025-04-13 16:22:13,817 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:13,891 - INFO - Typed 'invalid1223pass%&' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:13,891 - INFO - Entered invalid password
+2025-04-13 16:22:13,902 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:13,954 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:13,954 - INFO - Clicked login button
+2025-04-13 16:22:14,894 - INFO - Found element with locator: ('xpath', "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-04-13 16:22:14,906 - INFO - Retrieved error message: Invalid credentials
+2025-04-13 16:22:14,906 - INFO - Verified error message: Invalid credentials
+2025-04-13 16:22:14,906 - INFO - Finished scenario: Failed login with invalid credentials
+2025-04-13 16:22:19,048 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:19,051 - INFO - Starting scenario: Failed login with invalid username and valid password
+2025-04-13 16:22:20,590 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:20,590 - INFO - Opened login page successfully
+2025-04-13 16:22:21,117 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:21,198 - INFO - Typed 'invalidusername' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:21,199 - INFO - Entered invalid username: invalidusername
+2025-04-13 16:22:21,209 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:21,276 - INFO - Typed 'admin123' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:21,276 - INFO - Entered valid password
+2025-04-13 16:22:21,286 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:21,342 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:21,342 - INFO - Clicked login button
+2025-04-13 16:22:22,280 - INFO - Found element with locator: ('xpath', "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-04-13 16:22:22,295 - INFO - Retrieved error message: Invalid credentials
+2025-04-13 16:22:22,295 - INFO - Verified error message: Invalid credentials
+2025-04-13 16:22:22,295 - INFO - Finished scenario: Failed login with invalid username and valid password
+2025-04-13 16:22:26,445 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:26,447 - INFO - Starting scenario: Failed login with valid username and invalid password
+2025-04-13 16:22:27,853 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:27,853 - INFO - Opened login page successfully
+2025-04-13 16:22:28,377 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:28,445 - INFO - Typed 'Admin' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:28,445 - INFO - Entered valid username: Admin
+2025-04-13 16:22:28,455 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:28,529 - INFO - Typed 'invalid1223pass%&' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:28,529 - INFO - Entered invalid password
+2025-04-13 16:22:28,539 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:28,591 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:28,591 - INFO - Clicked login button
+2025-04-13 16:22:29,843 - INFO - Found element with locator: ('xpath', "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-04-13 16:22:29,858 - INFO - Retrieved error message: Invalid credentials
+2025-04-13 16:22:29,858 - INFO - Verified error message: Invalid credentials
+2025-04-13 16:22:29,858 - INFO - Finished scenario: Failed login with valid username and invalid password
+2025-04-13 16:22:33,953 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:33,955 - INFO - Starting scenario: Failed login with empty username and valid password
+2025-04-13 16:22:35,282 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:35,282 - INFO - Opened login page successfully
+2025-04-13 16:22:35,805 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:35,860 - INFO - Typed '' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:35,861 - INFO - Entered empty username: 
+2025-04-13 16:22:35,869 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:35,929 - INFO - Typed 'admin123' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:35,929 - INFO - Entered valid password
+2025-04-13 16:22:35,940 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:36,024 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:36,024 - INFO - Clicked login button
+2025-04-13 16:22:36,037 - INFO - Found element with locator: ('xpath', "//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']")
+2025-04-13 16:22:36,053 - INFO - Retrieved error message: Required
+2025-04-13 16:22:36,053 - INFO - Verified error message: Required
+2025-04-13 16:22:36,053 - INFO - Finished scenario: Failed login with empty username and valid password
+2025-04-13 16:22:40,198 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:40,200 - INFO - Starting scenario: Failed login with valid username and empty password
+2025-04-13 16:22:41,673 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:41,673 - INFO - Opened login page successfully
+2025-04-13 16:22:42,198 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:42,275 - INFO - Typed 'Admin' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:42,275 - INFO - Entered valid username: Admin
+2025-04-13 16:22:42,286 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:42,340 - INFO - Typed '' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:42,340 - INFO - Entered empty password
+2025-04-13 16:22:42,350 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:42,415 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:42,415 - INFO - Clicked login button
+2025-04-13 16:22:42,427 - INFO - Found element with locator: ('xpath', "//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']")
+2025-04-13 16:22:42,440 - INFO - Retrieved error message: Required
+2025-04-13 16:22:42,440 - INFO - Verified error message: Required
+2025-04-13 16:22:42,440 - INFO - Finished scenario: Failed login with valid username and empty password
+2025-04-13 16:22:46,589 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:46,591 - INFO - Starting scenario: Failed login with empty username and empty password
+2025-04-13 16:22:48,044 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:48,045 - INFO - Opened login page successfully
+2025-04-13 16:22:48,569 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:48,621 - INFO - Typed '' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:48,621 - INFO - Entered empty username: 
+2025-04-13 16:22:48,631 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:48,683 - INFO - Typed '' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:48,683 - INFO - Entered empty password
+2025-04-13 16:22:48,694 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:48,745 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:48,745 - INFO - Clicked login button
+2025-04-13 16:22:48,757 - INFO - Found element with locator: ('xpath', "//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']")
+2025-04-13 16:22:48,771 - INFO - Retrieved error message: Required
+2025-04-13 16:22:48,771 - INFO - Verified error message: Required
+2025-04-13 16:22:48,771 - INFO - Finished scenario: Failed login with empty username and empty password
+2025-04-13 16:22:52,859 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:22:52,861 - INFO - Starting scenario: Successful user logout
+2025-04-13 16:22:54,211 - INFO - Opened URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:54,211 - INFO - Opened login page successfully
+2025-04-13 16:22:54,737 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:54,799 - INFO - Typed 'Admin' into element with locator: ('xpath', "//input[@placeholder='Username']")
+2025-04-13 16:22:54,799 - INFO - Entered valid username: Admin
+2025-04-13 16:22:54,809 - INFO - Found element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:54,875 - INFO - Typed 'admin123' into element with locator: ('xpath', "//input[@placeholder='Password']")
+2025-04-13 16:22:54,875 - INFO - Entered valid password
+2025-04-13 16:22:54,884 - INFO - Found element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:54,927 - INFO - Clicked element with locator: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:54,927 - INFO - Clicked login button
+2025-04-13 16:22:57,936 - INFO - Retrieved url title: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-04-13 16:22:57,946 - INFO - Found element with locator: ('xpath', "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+2025-04-13 16:22:57,958 - INFO - Found'Dashboard' as a text in element with locator: ('xpath', "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+2025-04-13 16:22:57,958 - INFO - Verified user login to dasboard page
+2025-04-13 16:22:57,969 - INFO - Found element with locator: ('xpath', "//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")
+2025-04-13 16:22:58,020 - INFO - Clicked element with locator: ('xpath', "//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")
+2025-04-13 16:22:58,020 - INFO - Clicked menu button
+2025-04-13 16:22:58,568 - INFO - Found element with locator visible: ('xpath', "//a[normalize-space()='Logout']")
+2025-04-13 16:22:58,574 - INFO - Found element with locator: ('xpath', "//a[normalize-space()='Logout']")
+2025-04-13 16:22:59,190 - INFO - Clicked element with locator: ('xpath', "//a[normalize-space()='Logout']")
+2025-04-13 16:22:59,191 - INFO - Clicked logout button
+2025-04-13 16:22:59,198 - INFO - Retrieved url title: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-04-13 16:22:59,735 - INFO - Found element with locator visible: ('xpath', "//button[@type='submit']")
+2025-04-13 16:22:59,735 - INFO - User back to login page
+2025-04-13 16:22:59,735 - INFO - Finished scenario: Successful user logout
+2025-04-13 16:23:03,887 - INFO - Initialized Chrome WebDriver
+2025-04-13 16:23:06,134 - INFO - Closed WebDriver
+2025-04-13 16:23:06,134 - INFO - Cleaned up test environment

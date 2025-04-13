@@ -57,6 +57,10 @@
 -   Performance
 -   Headless mode options
 -   Accesibility
+-   Run test in a docker container
+-   Retry Mechanism: Reduces flaky failures by retrying failed scenarios once.
+
+
 
  
 
